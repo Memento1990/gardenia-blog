@@ -1,0 +1,24 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+title = 'Gardenia'
+theme = 'prism'
+
+[params]
+  siteNamePostfix = "/"
+  mainSections = ["posts"] # 要包含在主 feed 中的部分
+  rssFullContent = true   # 在 RSS feeds 中包含完整内容
+  Logo = "path/to/your/logo.png"
+
+  # 默认首页配置（可被每个页面覆盖）
+  [params.Default.Hero]
+    Blurry = true   # 启用模糊背景效果
+    Vibrant = true  # 启用鲜艳色彩叠加
+
+  # 页脚配置
+  [params.footer]
+    since = 2026    # 版权声明开始年份
+
+  # OpenGraph / Twitter 卡片设置
+  [params.opengraph.twitter]
+    site = "@YourHandle"
+    card = "summary_large_image"
