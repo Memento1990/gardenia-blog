@@ -1,3 +1,3 @@
-[submodule "themes/prism"]
-	path = themes/prism
-	url = https://github.com/CaiJimmy/hugo-theme-prism.git
+[submodule "themes/FixIt"]
+	path = themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git
