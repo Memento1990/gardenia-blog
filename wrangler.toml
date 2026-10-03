@@ -1,4 +1,4 @@
-name = 'gardenia-blog'
+name = "gardenia-blog"
 compatibility_date = "2026-02-26"
 
 [build]
